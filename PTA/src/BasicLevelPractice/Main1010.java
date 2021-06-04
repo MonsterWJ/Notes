@@ -1,5 +1,5 @@
 package BasicLevelPractice;
-//未完成
+
 import java.util.Scanner;
 
 public class Main1010 {
