@@ -12,19 +12,22 @@ public class Main1010 {
             polynomial[index][1] = sc.nextInt();
             index++;
         }
+
         for (int i = 0; i < index; i++) {
             polynomial[i][0] *= polynomial[i][1];
             polynomial[i][1]--;
             if (polynomial[i][0] != 0) count++;
         }
+
         if (count == 0) System.out.println("0 0");
-        else for (int i = 0; i < index; i++) {
-            if (polynomial[i][0] != 0) {
-                if (cout == 0) {
-                    System.out.print(polynomial[i][0] + " " + polynomial[i][1]);
-                    cout++;
-                } else System.out.print(" " + polynomial[i][0] + " " + polynomial[i][1]);
+        else
+            for (int i = 0; i < index; i++) {
+                if (polynomial[i][0] != 0) {
+                    if (cout == 0) {
+                        System.out.print(polynomial[i][0] + " " + polynomial[i][1]);
+                        cout++;
+                    } else System.out.print(" " + polynomial[i][0] + " " + polynomial[i][1]);
+                }
             }
-        }
     }
 }
