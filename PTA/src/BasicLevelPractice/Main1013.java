@@ -8,6 +8,7 @@ public class Main1013 {
     }
 
     public boolean isPrime(int num){
+        for(int i=2;i<)
         return true;
     }
 }
