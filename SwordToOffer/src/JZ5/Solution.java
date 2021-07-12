@@ -1,5 +1,9 @@
 package JZ5;
 
-public class Solution {
+import java.util.ArrayList;
 
+public class Solution {
+    public ArrayList<Integer> printListFromTailToHead(ListNode listNode) {
+
+    }
 }
