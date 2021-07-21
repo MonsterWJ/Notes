@@ -1,14 +1,18 @@
-package BubbleSort;
+package SelectionSort;
 
-public class Bubble {
+public class Selection {
     /**
-     * 对数组a中的元素进行排序(从小到大）
+     * 对数组a中的元素进行排序(从小到大)
      */
     public static void sort(Comparable[] a) {
-        for (int i = a.length - 1; i > 0; i--) {
-            for (int j = 0; j < i; j++) {
-                if (greater(a[j], a[j + 1])) {
-                    exchange(a, j, j + 1);
+        for (int i = 0; i < a.length - 1; i++) {
+            int minIndex = i;
+            for (int j = i; j < a.length; j++) {
+                if (greater(a[minIndex], a[j])) {
+                    minIndex = j;
+                }
+                if (minIndex != i) {
+                    exchange(a, i, minIndex);
                 }
             }
         }
