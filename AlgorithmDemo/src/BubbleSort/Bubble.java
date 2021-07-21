@@ -1,4 +1,4 @@
-package Bubble;
+package BubbleSort;
 
 public class Bubble {
     /**
