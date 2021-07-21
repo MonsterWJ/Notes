@@ -15,28 +15,24 @@ public class Solution {
             for (int i = left; i <= right; i++) {
                 array.add(matrix[top][i]);
             }
-
             if (++top > down) {
                 break;
             }
             for (int i = top; i <= down; i++) {
                 array.add(matrix[i][right]);
             }
-
             if (--right < left) {
                 break;
             }
             for (int i = right; i >= left; i--) {
                 array.add(matrix[down][i]);
             }
-
             if (--down < top) {
                 break;
             }
             for (int i = down; i >= top; i--) {
                 array.add(matrix[i][left]);
             }
-
             if (++left > right) {
                 break;
             }
