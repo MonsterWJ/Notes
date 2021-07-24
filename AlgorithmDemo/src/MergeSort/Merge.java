@@ -1,7 +1,5 @@
 package MergeSort;
 
-import java.util.Arrays;
-
 /**
  * 0.private static Comparable[] assist：完成归并操作需要的辅助数组
  * 1.public static void sort(Comparable[] a)：对数组内的元素进行排序
