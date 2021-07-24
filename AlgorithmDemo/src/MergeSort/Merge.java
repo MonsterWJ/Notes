@@ -59,9 +59,10 @@ public class Merge {
             assist[i++] = a[p2++];
         }
         //到现在为止，assist数组中，从low到high的元素是有序的，再把数据拷贝回a数组
-        for (int index = low; index <= high; index++) {
-            a[index] = assist[index];
-        }
+//        for (int index = low; index <= high; index++) {
+//            a[index] = assist[index];
+//        }
+        System.arraycopy(assist, low, a, low, high + 1 - low);
     }
 
     //比较a元素是否大于b元素
