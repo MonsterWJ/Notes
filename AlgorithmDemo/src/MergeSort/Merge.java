@@ -1,12 +1,12 @@
 package MergeSort;
 
-/**
- * 0.private static Comparable[] assist：完成归并操作需要的辅助数组
- * 1.public static void sort(Comparable[] a)：对数组内的元素进行排序
- * 2.private static void sort(Comparable[] a, int low, int high)：对数组a中从索引low到索引high之间的元素进行排序
- * 3.private static void merge(Comparable[] a, int low, int mid, int high):从索引lo到所以mid为一个子组，从索引mid+1到索引high为另一个子组，把数组a中的这两个子组的数据合并成一个有序的大组（从索引low到索引high）
- * 4.private static boolean greater(Comparable a1,Comparable a2):判断a1是否大于a2
- */
+/*
+    0.private static Comparable[] assist：完成归并操作需要的辅助数组
+    1.public static void sort(Comparable[] a)：对数组内的元素进行排序
+    2.private static void sort(Comparable[] a, int low, int high)：对数组a中从索引low到索引high之间的元素进行排序
+    3.private static void merge(Comparable[] a, int low, int mid, int high):从索引lo到所以mid为一个子组，从索引mid+1到索引high为另一个子组，把数组a中的这两个子组的数据合并成一个有序的大组（从索引low到索引high）
+    4.private static boolean greater(Comparable a1,Comparable a2):判断a1是否大于a2
+*/
 public class Merge {
     //归并所需要的辅助数组
     private static Comparable[] assist;
