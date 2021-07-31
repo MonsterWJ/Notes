@@ -1,5 +1,7 @@
 package JZ4;
 
 public class Solution {
-    psv
+    public static void main(String[] args) {
+
+    }
 }
