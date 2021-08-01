@@ -1,14 +1,16 @@
-package InsertingSort;
+package Sort.SelectionSort;
 
-public class Insertion {
+public class Selection {
     //对数组a中的元素进行排序(从小到大)
     public static void sort(Comparable[] a) {
-        for (int i = 1; i < a.length; i++) {
-            for (int j = i; j > 0; j--) {
-                if (greater(a[j - 1], a[j])) {
-                    exchange(a, j - 1, j);
-                } else {
-                    break;
+        for (int i = 0; i < a.length - 1; i++) {
+            int minIndex = i;
+            for (int j = i; j < a.length; j++) {
+                if (greater(a[minIndex], a[j])) {
+                    minIndex = j;
+                }
+                if (minIndex != i) {
+                    exchange(a, i, minIndex);
                 }
             }
         }
@@ -26,6 +28,4 @@ public class Insertion {
         a[index2] = temp;
     }
 
-
 }
-

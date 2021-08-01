@@ -1,12 +1,14 @@
-package BubbleSort;
+package Sort.InsertingSort;
 
-public class Bubble {
-    //对数组a中的元素进行排序(从小到大）
+public class Insertion {
+    //对数组a中的元素进行排序(从小到大)
     public static void sort(Comparable[] a) {
-        for (int i = a.length - 1; i > 0; i--) {
-            for (int j = 0; j < i; j++) {
-                if (greater(a[j], a[j + 1])) {
-                    exchange(a, j, j + 1);
+        for (int i = 1; i < a.length; i++) {
+            for (int j = i; j > 0; j--) {
+                if (greater(a[j - 1], a[j])) {
+                    exchange(a, j - 1, j);
+                } else {
+                    break;
                 }
             }
         }
@@ -24,4 +26,6 @@ public class Bubble {
         a[index2] = temp;
     }
 
+
 }
+

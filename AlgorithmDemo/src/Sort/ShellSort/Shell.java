@@ -1,4 +1,4 @@
-package ShellSort;
+package Sort.ShellSort;
 
 public class Shell {
     //对数组a中的元素进行排序(从小到大)

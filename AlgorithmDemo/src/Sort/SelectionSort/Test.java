@@ -1,11 +1,11 @@
-package BubbleSort;
+package Sort.SelectionSort;
 
 import java.util.Arrays;
 
 public class Test {
     public static void main(String[] args) {
-        Integer[] a = {4, 5, 6, 3, 2, 1};
-        Bubble.sort(a);
+        Integer[] a = {4, 6, 8, 7, 9, 2, 10, 1};
+        Selection.sort(a);
         System.out.println(Arrays.toString(a));
     }
 }

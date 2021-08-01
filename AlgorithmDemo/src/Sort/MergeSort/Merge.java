@@ -1,4 +1,4 @@
-package MergeSort;
+package Sort.MergeSort;
 
 /*
     0.private static Comparable[] assist：完成归并操作需要的辅助数组

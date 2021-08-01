@@ -1,4 +1,4 @@
-package QuickSort;
+package Sort.QuickSort;
 /*
     1.public static void sort(Comparable[] a)：对数组内的元素进行排序
     2.private static void sort(Comparable[] a, int low, int high)：对数组a中从索引low到索引high之间的元素进行排序
