@@ -2,7 +2,7 @@ package Linear.SequenceList;
 
 import java.util.Iterator;
 
-public class SequenceList<T> implements Iterator<T> {
+public class SequenceList<T> implements Iterable<T> {
     //存储元素的数组
     private T[] eles;
     //记录当前顺序表中的元素个数
