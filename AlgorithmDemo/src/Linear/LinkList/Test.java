@@ -21,7 +21,6 @@ public class Test {
         System.out.println(remove);
         System.out.println(list.length());
         System.out.println("----------------");
-        ;
         for (String s : list) {
             System.out.println(s);
         }
