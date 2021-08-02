@@ -13,9 +13,11 @@ public class Test {
         }
         System.out.println(list.length());
         System.out.println("-------------------");
+
         //测试get方法
         System.out.println(list.get(2));
         System.out.println("------------------------");
+
         //测试remove方法
         String remove = list.remove(1);
         System.out.println(remove);
