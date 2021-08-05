@@ -7,6 +7,7 @@ public class LinkList<T> implements Iterable<T> {
     private Node head;
     //记录链表的长度
     private int N;
+
     //结点类
     private class Node {
         //存储数据
