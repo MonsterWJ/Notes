@@ -1,7 +1,6 @@
 package JZ28;
 
 import java.util.HashMap;
-
 public class Solution {
     public int MoreThanHalfNum_Solution(int[] array) {
         HashMap<Integer, Integer> countMap = new HashMap<Integer, Integer>();
