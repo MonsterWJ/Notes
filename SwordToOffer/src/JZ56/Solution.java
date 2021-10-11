@@ -1,5 +1,7 @@
 package JZ56;
 
+import utils.ListNode;
+
 public class Solution {
     public ListNode deleteDuplication(ListNode pHead) {
         if (pHead == null || pHead.next == null) return pHead;

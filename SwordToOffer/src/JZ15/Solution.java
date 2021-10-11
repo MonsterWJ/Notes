@@ -1,5 +1,7 @@
 package JZ15;
 
+import utils.ListNode;
+
 /*
 public class ListNode {
     int val;

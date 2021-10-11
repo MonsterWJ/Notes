@@ -1,15 +1,17 @@
 package JZ59;
 
+import utils.TreeNode;
+
 import java.util.ArrayList;
 import java.util.Stack;
 
 /*
-public class TreeNode {
+public class utils.TreeNode {
     int val = 0;
-    TreeNode left = null;
-    TreeNode right = null;
+    utils.TreeNode left = null;
+    utils.TreeNode right = null;
 
-    public TreeNode(int val) {
+    public utils.TreeNode(int val) {
         this.val = val;
 
     }

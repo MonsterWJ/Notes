@@ -1,5 +1,7 @@
 package JZ55;
 
+import utils.ListNode;
+
 public class Solution {
     public ListNode EntryNodeOfLoop(ListNode pHead) {
         ListNode fast = pHead;

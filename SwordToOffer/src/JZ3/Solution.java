@@ -1,5 +1,7 @@
 package JZ3;
 
+import utils.ListNode;
+
 import java.util.ArrayList;
 
 public class Solution {

@@ -1,21 +1,11 @@
 package JZ38;
 
+import utils.TreeNode;
 import java.util.LinkedList;
 import java.util.Queue;
 
-
-/*public class TreeNode {
-    int val = 0;
-    TreeNode left = null;
-    TreeNode right = null;
-
-    public TreeNode(int val) {
-        this.val = val;
-    }
-}*/
-
 public class Solution {
-    /*public int TreeDepth(TreeNode root) {
+    /*public int TreeDepth(utils.TreeNode root) {
         if (root == null) {
             return 0;
         }

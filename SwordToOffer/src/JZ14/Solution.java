@@ -1,5 +1,7 @@
 package JZ14;
 
+import utils.ListNode;
+
 public class Solution {
     public ListNode FindKthToTail(ListNode pHead, int k) {
         // write code here

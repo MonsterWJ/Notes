@@ -1,5 +1,7 @@
 package JZ25;
 
+import utils.RandomListNode;
+
 import java.util.HashMap;
 
 public class Solution {

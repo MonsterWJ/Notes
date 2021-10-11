@@ -1,5 +1,7 @@
 package JZ16;
 
+import utils.ListNode;
+
 public class Solution {
     public ListNode Merge(ListNode list1, ListNode list2) {
         ListNode temp = new ListNode(-1);
