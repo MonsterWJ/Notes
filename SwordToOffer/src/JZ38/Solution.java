@@ -4,7 +4,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 
-class TreeNode {
+/*public class TreeNode {
     int val = 0;
     TreeNode left = null;
     TreeNode right = null;
@@ -12,7 +12,7 @@ class TreeNode {
     public TreeNode(int val) {
         this.val = val;
     }
-}
+}*/
 
 public class Solution {
     /*public int TreeDepth(TreeNode root) {
